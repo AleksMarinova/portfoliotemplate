@@ -10,7 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95G7EBCJKN"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-95G7EBCJKN"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-95G7EBCJKN');
+  </script>
 </head>
 <body>
     <header class="main-header">
@@ -22,7 +29,7 @@
             <img src="img/card.jpg" alt="">
             <div>
                 <h3>Robofriends</h3>
-                <p>A simple app build with React</p>
+                <p>A minimalistic app build with React.</p>
                 <a href="https://new-robofriends.vercel.app" target="_blank" class="btn">Check it out</a>
             </div>
         </section>
